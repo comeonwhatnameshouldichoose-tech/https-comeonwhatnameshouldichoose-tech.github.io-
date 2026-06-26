@@ -17,6 +17,13 @@ All notable project changes are documented here. Do not remove or overwrite prev
 
 ### Version 4
 
+- Expanded the brand positioning from rare Japanese printed culture to Japanese Printed & Recorded Heritage.
+- Updated homepage title, metadata, hero copy, brand story, featured collections, trust language, and future channel copy to include books, magazines, manga, exhibition catalogs, art books, music CDs, SHM-CD, SACD, Blu-ray, DVD, and LaserDisc.
+- Expanded Featured Discoveries with SHM-CD, Japanese Blu-ray, LaserDisc, and Movie Programs while keeping the archival showcase presentation.
+- Expanded Collector Resources with cards for first press CDs, SHM-CD, Japanese Blu-ray editions, LaserDisc collecting, magazine grading, catalog collecting, and art book collecting.
+- Expanded the educational cornerstone article to include kashihon rental bookshops, recorded media, music editions, optical media, physical collector editions, and the continuity between Japanese publishing culture and later physical media culture.
+- Updated SEO metadata and JSON-LD around Japanese Printed Heritage, Japanese Recorded Media, Japanese Publishing History, Japanese Music Media, Japanese Collector Editions, Japanese Blu-ray, Japanese CDs, and Japanese Magazines.
+- Updated `PROJECT_BRIEF.md` to reflect the broader Japanese Printed & Recorded Heritage brand concept.
 - Replaced the contact placeholder section with a working GitHub Pages-compatible FormSubmit contact form.
 - Added name, email, subject, inquiry type, and message fields for business inquiries, collector questions, partnerships, press, and rare item requests.
 - Added the `contact-success.html` confirmation page and spam protection through FormSubmit plus a hidden honeypot field.

@@ -4,7 +4,7 @@ This is the single authoritative project specification for the Yotsuba Clovers o
 
 ## Background
 
-Yotsuba Clovers is an eBay business specializing in rare Japanese printed collectibles.
+Yotsuba Clovers is an eBay business specializing in Japanese Printed & Recorded Heritage collectibles.
 
 Main categories include:
 
@@ -14,6 +14,14 @@ Main categories include:
 - Japanese Music Magazines
 - Catalogs
 - Art Books
+- Books
+- Exhibition Catalogs
+- Music CDs
+- SHM-CD
+- SACD
+- Blu-ray
+- DVD
+- LaserDisc
 
 The website is hosted on GitHub Pages.
 
@@ -37,7 +45,7 @@ These issues have now been resolved.
 
 Brand: Yotsuba Clovers
 
-Tagline: Rare Japanese Printed Culture
+Tagline: Japanese Printed & Recorded Heritage
 
 Platform: Powered by BRIdGE
 
@@ -68,6 +76,8 @@ Target audience:
 - Western collectors
 - Vintage magazine collectors
 - Japanese print culture enthusiasts
+- Japanese recorded media collectors
+- Music, film, anime, manga, and physical edition collectors
 
 The atmosphere should be:
 
@@ -114,7 +124,7 @@ Historical Version 2 baseline files:
 Home:
 
 - Hero section
-- Rare Japanese Printed Culture
+- Japanese Printed & Recorded Heritage
 - Brand introduction
 - Brand story
 - Featured Collections
@@ -126,12 +136,12 @@ Home:
 
 Featured Collections:
 
-- Weekly Shonen Jump
-- Vintage Manga
-- Anime Publications
-- Music Magazines
-- Catalogs
-- Art Books
+- Books & Magazines
+- Music
+- Movies
+- Art & Exhibition Catalogs
+- Manga & Anime
+- Collector Resources
 
 About:
 
@@ -144,20 +154,31 @@ About:
 Collector Resources:
 
 - What is an Obi Strip?
-- How Japanese magazines are graded
-- Why Weekly Shonen Jump matters / Collecting Weekly Shonen Jump
-- History of Japanese music magazines
-- Why Japanese catalogs are collectible
+- Understanding First Press CDs
+- What is SHM-CD?
+- Japanese Blu-ray Editions
+- LaserDisc Collecting
+- Magazine Grading
+- Catalog Collecting
+- Art Book Collecting
 
 Educational cornerstone page:
 
-- Why Collect Japanese Printed Culture?
+- Why Collect Japanese Printed & Recorded Heritage?
 - Japanese magazine culture
 - Manga history
 - Music magazines
 - Catalogs
 - Art books
 - Why collectors value original Japanese editions
+- Edo-period publishing history
+- Terakoya and shijuku
+- Kashihon rental bookshops
+- Ukiyo-e
+- Newspapers and early magazines
+- Japanese music media
+- Optical media
+- Physical collector editions
 
 Contact:
 
@@ -175,6 +196,17 @@ Contact:
 - Instagram placeholder
 - GitHub placeholder
 - Shopify Online Store placeholder
+
+SEO scope includes:
+
+- Japanese Printed Heritage
+- Japanese Recorded Media
+- Japanese Publishing History
+- Japanese Music Media
+- Japanese Collector Editions
+- Japanese Blu-ray
+- Japanese CDs
+- Japanese Magazines
 
 Privacy:
 
