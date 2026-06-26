@@ -1,2 +1,1 @@
-# Yotsuba Clovers Official Site
-GitHub Pages website for Pinterest API verification.
+# BRIdGE Official Website v2 Part1
