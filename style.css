@@ -32,6 +32,32 @@ a {
   color: inherit;
 }
 
+.skip-link {
+  position: absolute;
+  left: 18px;
+  top: 12px;
+  z-index: 100;
+  padding: 10px 14px;
+  color: var(--green-ink);
+  background: var(--paper);
+  border: 1px solid var(--antique-gold);
+  transform: translateY(-160%);
+  transition: transform 180ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+:focus-visible {
+  outline: 2px solid var(--antique-gold);
+  outline-offset: 4px;
+}
+
+main:focus {
+  outline: none;
+}
+
 .site-header {
   display: flex;
   align-items: center;
@@ -538,6 +564,43 @@ h3 {
   background: var(--green-ink);
   color: var(--ivory);
   border: 1px solid var(--line-strong);
+}
+
+.related-panel {
+  max-width: var(--max);
+  margin: clamp(30px, 5vw, 56px) auto 0;
+  padding: 30px;
+  background: rgba(255, 250, 240, 0.82);
+  border: 1px solid var(--line);
+}
+
+.related-panel h2 {
+  font-size: 2.15rem;
+}
+
+.related-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 20px;
+}
+
+.related-links a {
+  color: var(--green-ink);
+  font-family: Arial, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--line-strong);
+  transition: color 180ms ease, border-color 180ms ease;
+}
+
+.related-links a:hover,
+.related-links a:focus-visible {
+  color: var(--antique-gold);
+  border-color: currentColor;
 }
 
 .resource-feature h2 {

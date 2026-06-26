@@ -15,6 +15,16 @@ All notable project changes are documented here. Do not remove or overwrite prev
 - Added `CHANGELOG.md` as the permanent project history.
 - Established the rule that `PROJECT_BRIEF.md`, `VERSION3_REQUEST.md`, and `CHANGELOG.md` must be read before future project changes.
 
+### Version 4
+
+- Added a homepage section titled "Why Japanese Printed Culture Matters" with museum-quality historical context.
+- Expanded `why-collect-japanese-printed-culture.html` into a long-form educational article about Japanese publishing history, Edo literacy, commercial publishing, magazines, manga history, and printed heritage.
+- Added a historical timeline covering the Edo Period, terakoya expansion, Meiji Restoration, magazine growth, Weekly Shonen Magazine, Weekly Shonen Jump, global manga influence, and modern collectors.
+- Strengthened educational SEO metadata and JSON-LD topics for Japanese print culture, history of Japanese publishing, Edo literacy, Japanese magazines, manga history, and printed heritage.
+- Added subtle archival visual elements for the heritage section, article navigation, and timeline.
+- Improved internal linking between Home, About, Collector Resources, Why Collect Japanese Printed Culture, and Contact.
+- Improved accessibility with skip links, focus-visible styling, main-content targets, and cleaner resource card structure.
+
 ### Version 3
 
 - Added the educational cornerstone page `why-collect-japanese-printed-culture.html`.
