@@ -6,6 +6,7 @@ All notable project changes are documented here. Do not remove or overwrite prev
 
 ### Documentation
 
+- Added the required post-feature workflow: update changelog, commit, push to GitHub, verify GitHub Pages deployment, and report deployment URL plus latest commit hash.
 - Consolidated duplicate project brief information into `PROJECT_BRIEF.md`.
 - Removed `YotsubaClovers_Website_v2_Project.md` from the active project after merging unique historical information.
 - Confirmed `PROJECT_BRIEF.md` is the single authoritative project specification.

@@ -211,6 +211,14 @@ Before making project changes, read:
 
 When completing a feature, update `CHANGELOG.md` without removing previous history.
 
+After every completed feature:
+
+1. Update `CHANGELOG.md`.
+2. Commit with a meaningful message.
+3. Push to GitHub.
+4. Verify GitHub Pages deployment.
+5. Report the deployment URL and latest commit hash.
+
 `PROJECT_BRIEF.md` is the only authoritative project brief. Older duplicate brief files must not remain active in the project after their unique information has been merged here.
 
 This documentation set is the authoritative source of truth for Version 4, Version 5, and later updates.
