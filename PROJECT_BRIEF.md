@@ -1,5 +1,7 @@
 # Project: Yotsuba Clovers Official Website
 
+This is the single authoritative project specification for the Yotsuba Clovers official website.
+
 ## Background
 
 Yotsuba Clovers is an eBay business specializing in rare Japanese printed collectibles.
@@ -96,6 +98,17 @@ Core assets:
 - `assets/logo.png`
 - `assets/hero-printed-culture.png`
 
+Historical Version 2 baseline files:
+
+- `index.html`
+- `about.html`
+- `contact.html`
+- `privacy.html`
+- `collector-resources.html`
+- `style.css`
+- `robots.txt`
+- `sitemap.xml`
+
 ## Content Requirements
 
 Home:
@@ -132,7 +145,7 @@ Collector Resources:
 
 - What is an Obi Strip?
 - How Japanese magazines are graded
-- Why Weekly Shonen Jump matters
+- Why Weekly Shonen Jump matters / Collecting Weekly Shonen Jump
 - History of Japanese music magazines
 - Why Japanese catalogs are collectible
 
@@ -197,5 +210,7 @@ Before making project changes, read:
 - `CHANGELOG.md`
 
 When completing a feature, update `CHANGELOG.md` without removing previous history.
+
+`PROJECT_BRIEF.md` is the only authoritative project brief. Older duplicate brief files must not remain active in the project after their unique information has been merged here.
 
 This documentation set is the authoritative source of truth for Version 4, Version 5, and later updates.

@@ -6,6 +6,10 @@ All notable project changes are documented here. Do not remove or overwrite prev
 
 ### Documentation
 
+- Consolidated duplicate project brief information into `PROJECT_BRIEF.md`.
+- Removed `YotsubaClovers_Website_v2_Project.md` from the active project after merging unique historical information.
+- Confirmed `PROJECT_BRIEF.md` is the single authoritative project specification.
+- Added `VERSION3_REQUEST.md` to tracked permanent project documentation.
 - Added `PROJECT_BRIEF.md` as the permanent overall project specification.
 - Added `CHANGELOG.md` as the permanent project history.
 - Established the rule that `PROJECT_BRIEF.md`, `VERSION3_REQUEST.md`, and `CHANGELOG.md` must be read before future project changes.
