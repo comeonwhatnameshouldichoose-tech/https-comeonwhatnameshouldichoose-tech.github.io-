@@ -4,6 +4,15 @@ All notable project changes are documented here. Do not remove or overwrite prev
 
 ## 2026-06-26
 
+### Contact Form Improvement
+
+- Updated the FormSubmit contact form subject to "Yotsuba Clovers Website Inquiry".
+- Added FormSubmit redirect support for the new `thank-you.html` confirmation page.
+- Added FormSubmit autoresponse text and disabled FormSubmit captcha with `_captcha=false`.
+- Simplified the contact form to name, email, subject, and message fields with HTML validation.
+- Added visible contact information for email, Japan location, collector questions, business inquiries, partnerships, media requests, and rare item requests.
+- Added the premium-styled `thank-you.html` page with a Return to Home button.
+
 ### Documentation
 
 - Added the required post-feature workflow: update changelog, commit, push to GitHub, verify GitHub Pages deployment, and report deployment URL plus latest commit hash.

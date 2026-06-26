@@ -546,6 +546,25 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+.contact-facts li {
+  display: grid;
+  gap: 4px;
+}
+
+.contact-facts span,
+.contact-purpose-label {
+  color: var(--antique-gold);
+  font-family: Arial, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.contact-purpose-label {
+  margin-top: 28px;
+}
+
 .contact-note p:not(.eyebrow),
 .success-panel p:not(.eyebrow) {
   color: var(--muted-gray);
@@ -555,6 +574,15 @@ h3 {
   padding: clamp(28px, 5vw, 46px);
   border: 1px solid var(--line-strong);
   box-shadow: var(--shadow);
+}
+
+.success-actions {
+  margin-top: 28px;
+}
+
+.success-actions .form-submit {
+  display: inline-block;
+  text-decoration: none;
 }
 
 .card-mark {
