@@ -371,27 +371,38 @@ h3 {
 
 .feature-list,
 .article-list,
-.policy {
+.policy,
+.longform {
   max-width: 920px;
   margin: 0 auto;
 }
 
 .feature-list article,
 .resource-article,
-.policy {
+.policy,
+.longform section {
   padding: 28px 0;
   border-top: 1px solid var(--line);
 }
 
 .feature-list article:first-child,
-.resource-article:first-child {
+.resource-article:first-child,
+.longform section:first-of-type {
   border-top: 0;
 }
 
 .feature-list h2,
 .resource-article h2,
-.policy h2 {
+.policy h2,
+.longform h2 {
   font-size: 2.15rem;
+}
+
+.lead {
+  margin: 0 0 18px;
+  color: var(--green-ink);
+  font-size: 1.28rem;
+  line-height: 1.58;
 }
 
 .placeholder {
