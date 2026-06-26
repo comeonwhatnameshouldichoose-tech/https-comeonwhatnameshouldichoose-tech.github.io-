@@ -17,6 +17,10 @@ All notable project changes are documented here. Do not remove or overwrite prev
 
 ### Version 4
 
+- Replaced the contact placeholder section with a working GitHub Pages-compatible FormSubmit contact form.
+- Added name, email, subject, inquiry type, and message fields for business inquiries, collector questions, partnerships, press, and rare item requests.
+- Added the `contact-success.html` confirmation page and spam protection through FormSubmit plus a hidden honeypot field.
+- Updated the contact page metadata and project brief to reflect the live contact workflow.
 - Added a homepage section titled "Why Japanese Printed Culture Matters" with museum-quality historical context.
 - Expanded `why-collect-japanese-printed-culture.html` into a long-form educational article about Japanese publishing history, Edo literacy, commercial publishing, magazines, manga history, and printed heritage.
 - Added a historical timeline covering the Edo Period, terakoya expansion, Meiji Restoration, magazine growth, Weekly Shonen Magazine, Weekly Shonen Jump, global manga influence, and modern collectors.

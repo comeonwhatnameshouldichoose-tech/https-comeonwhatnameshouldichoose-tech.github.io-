@@ -161,7 +161,16 @@ Educational cornerstone page:
 
 Contact:
 
-- Email placeholder
+- Working FormSubmit contact form delivering to `yotsubaclovers.japan@gmail.com`
+- Name, email, subject, inquiry type, and message fields
+- Success page for submitted contact messages
+- Spam protection through FormSubmit and a hidden honeypot field
+- Supported inquiry types:
+  - Business Inquiries
+  - Collector Questions
+  - Partnerships
+  - Press
+  - Rare Item Requests
 - Pinterest placeholder
 - Instagram placeholder
 - GitHub placeholder

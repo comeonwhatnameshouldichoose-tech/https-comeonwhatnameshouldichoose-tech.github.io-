@@ -424,6 +424,139 @@ h3 {
   font-size: 1.45rem;
 }
 
+.contact-section {
+  background:
+    linear-gradient(180deg, rgba(255, 250, 240, 0.94), rgba(247, 241, 227, 0.92)),
+    var(--paper);
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+  gap: 1px;
+  max-width: var(--max);
+  margin: 0 auto;
+  background: var(--line-strong);
+  border: 1px solid var(--line-strong);
+  box-shadow: var(--shadow);
+}
+
+.contact-form,
+.contact-note,
+.success-panel {
+  background: var(--paper);
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  padding: clamp(24px, 4vw, 40px);
+}
+
+.form-row {
+  display: grid;
+  gap: 8px;
+}
+
+.form-row-full,
+.form-submit {
+  grid-column: 1 / -1;
+}
+
+.contact-form label {
+  color: var(--green-ink);
+  font-family: Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: rgba(247, 241, 227, 0.58);
+  color: var(--dark-gray);
+  font: inherit;
+  padding: 13px 14px;
+  transition: border-color 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 180px;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  border-color: var(--antique-gold);
+  background: #fffdf6;
+  box-shadow: 0 0 0 3px rgba(184, 148, 69, 0.16);
+  outline: none;
+}
+
+.form-honey {
+  display: none;
+}
+
+.form-submit {
+  justify-self: start;
+  border: 1px solid var(--antique-gold);
+  background: var(--green-ink);
+  color: var(--ivory);
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  padding: 14px 22px;
+  text-transform: uppercase;
+  transition: background-color 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.form-submit:hover,
+.form-submit:focus-visible {
+  background: var(--antique-gold);
+  color: var(--green-ink);
+  transform: translateY(-2px);
+}
+
+.contact-note {
+  padding: clamp(24px, 4vw, 40px);
+}
+
+.contact-note h2 {
+  font-size: 2.15rem;
+}
+
+.contact-note ul {
+  margin: 24px 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.contact-note li {
+  padding: 12px 0;
+  color: var(--green-ink);
+  border-bottom: 1px solid var(--line);
+}
+
+.contact-note p:not(.eyebrow),
+.success-panel p:not(.eyebrow) {
+  color: var(--muted-gray);
+}
+
+.success-panel {
+  padding: clamp(28px, 5vw, 46px);
+  border: 1px solid var(--line-strong);
+  box-shadow: var(--shadow);
+}
+
 .card-mark {
   position: absolute;
   right: 24px;
@@ -774,6 +907,7 @@ h3 {
   .section-grid,
   .collection-grid,
   .contact-grid,
+  .contact-layout,
   .story-grid,
   .showcase-grid,
   .future-grid,
@@ -813,6 +947,10 @@ h3 {
   .timeline li {
     grid-template-columns: 1fr;
     gap: 8px;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr;
   }
 }
 
