@@ -108,6 +108,7 @@ Core assets:
 
 - `assets/logo.png`
 - `assets/hero-printed-culture.png`
+- `assets/hero-printed-recorded-heritage.png`
 
 Historical Version 2 baseline files:
 

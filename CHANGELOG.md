@@ -2,6 +2,14 @@
 
 All notable project changes are documented here. Do not remove or overwrite previous history.
 
+## 2026-06-27
+
+### Hero Image
+
+- Replaced the homepage hero image with the new Japanese Printed & Recorded Heritage visual asset.
+- Added `assets/hero-printed-recorded-heritage.png` as a GitHub Pages-friendly copy of the supplied hero artwork.
+- Updated homepage Open Graph and Twitter Card image references to use the new hero asset.
+
 ## 2026-06-26
 
 ### Contact Form Improvement
