@@ -441,6 +441,29 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+.heritage-section {
+  background:
+    linear-gradient(180deg, rgba(255, 250, 240, 0.94), rgba(238, 228, 206, 0.76)),
+    var(--ivory-deep);
+  border-bottom: 1px solid var(--line);
+}
+
+.heritage-prose {
+  position: relative;
+  padding-top: 22px;
+  border-top: 1px solid var(--line-strong);
+}
+
+.heritage-prose::before {
+  content: "";
+  display: block;
+  width: 92px;
+  height: 4px;
+  margin-bottom: 24px;
+  background:
+    linear-gradient(90deg, var(--antique-gold) 0 22px, transparent 22px 32px, var(--antique-gold) 32px 60px, transparent 60px 70px, var(--antique-gold) 70px 92px);
+}
+
 .trust-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
